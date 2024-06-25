@@ -37,10 +37,9 @@ def main():
     # interest earned for the given months.
     # ADD YOUR CODE HERE
     print("-" * 42)
-    print("The account will earn $", format(
-        interest_earned, ',.2f'), "of interest over the period of", savings_months, "month(s)")
-    print("The updated balance for the savings account will be $",
-          format(updated_savings_balance, ',.2f'))
+    print("-" * 42)
+    print(f"The account will earn ${interest_earned:,.2f} of interest over the period of {savings_months} months")
+    print(f"The updated balance for the savings account will be ${updated_savings_balance:,.2f}")
     print("-" * 42)
     print(" " * 42)
 
@@ -58,9 +57,8 @@ def main():
     # with interest earned for the given months.
     # ADD YOUR CODE HERE
     print("-" * 42)
-    print("The interest earned for the CD is", format(
-          cd_earned_interest, ',.2f'))
-    print("The updated CD balance is $", format(updated_cd_balance, ',.2f'))
+    print(f"The interest earned for the CD is ${cd_earned_interest:,.2f}")
+    print(f"The updated CD balance is ${updated_cd_balance:,.2f}")
     print("This is over a time period of", cd_months, "month(s)")
     print(" " * 42)
 
