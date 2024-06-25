@@ -22,7 +22,7 @@ def create_savings_account(balance, interest_rate, months):
         months (int): The length of months to determine the amount of interest.
 
     Returns:
-        savings_balance (float): The updated savings account balance after adding the interest earned.
+        savings_balance (float): The updated savings account balance after interest.
         interest_earned (float): The earned interest.
         savings_months (int): The number of months used to calculate the savings_balance.
     """

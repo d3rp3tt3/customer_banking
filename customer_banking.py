@@ -37,11 +37,10 @@ def main():
     # interest earned for the given months.
     # ADD YOUR CODE HERE
     print("-" * 42)
-    print("-" * 42)
-    print(f"The account will earn ${interest_earned:,.2f} of interest over the period of {savings_months} months")
+    print(f"The interest is ${interest_earned:,.2f} over {savings_months} month(s)")
     print(f"The updated balance for the savings account will be ${updated_savings_balance:,.2f}")
-    print("-" * 42)
     print(" " * 42)
+    print("-" * 42)
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE
