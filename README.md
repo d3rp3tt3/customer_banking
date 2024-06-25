@@ -19,7 +19,7 @@ The program's primary class outlines the core functions of a customer's account.
 
 ### cd_account.py
 
-Inherits from Account.py. This file includes functions for calculating the potential earned interest for a CD.
+This file defines the `reate_cd_account` function and includes methods for calculating the potential earned interest for a CD.
 
 * Parameters: `balance (float)`, `interest_rate (float)`, `months (float)`
 * Returns:
