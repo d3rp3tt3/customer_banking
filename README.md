@@ -6,6 +6,12 @@ This repo shows a simple Python program for modeling the potential earned intere
 
 The project presents a potential solution for the UNC-Chapel Hill AI bootcamp assignment for the Module 3 Challenge.
 
+## Running the solution
+
+At the Command Line: Run `python3 customer_banking.py`
+
+The program will prompt you to enter values for the current balances for a hypothetical savings and CD account, the APRs for their interest, and the number of months to calculate the new balance.
+
 ## Files in this repository
 
 ### Account.py
@@ -40,9 +46,3 @@ This file defines the `create_savings_account` function, which includes methods 
 ### customer_banking.py
 
 This file executes the program and includes the `main` function. It includes code to prompt the user to input values to calculate the potential earned interest and final balances for a savings account and a CD.
-
-## Running the solution
-
-At the Command Line: Run `python3 customer_banking.py`
-
-The program will prompt you to enter values for the current balances for a hypothetical savings and CD account, the APRs for their interest, and the number of months to calculate the new balance.
