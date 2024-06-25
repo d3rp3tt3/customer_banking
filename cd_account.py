@@ -20,8 +20,9 @@ def create_cd_account(balance, interest_rate, months):
         months (int): The length of months for the CD.
 
     Returns:
-        float: The updated CD account balance after adding the interest earned.
-        And returns the interest earned.
+        cd_balance (float): The updated CD account balance after adding the interest earned.
+        cd_interest_earned (float): The interest earned.
+        cd_months (int): The number of months used to calculate the new balance.
     """
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.

@@ -1,4 +1,4 @@
-""" Create a Account class with methods"""
+"""Defines the core functions for a customer's account"""
 
 class Account:
     """Creating an Account class with methods"""
