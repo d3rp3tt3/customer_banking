@@ -45,4 +45,13 @@ This file defines the `create_savings_account` function, which includes methods 
 
 ### customer_banking.py
 
-This file executes the program and includes the `main` function. It includes code to prompt the user to input values to calculate the potential earned interest and final balances for a savings account and a CD.
+This file executes the program and includes three functions:
+
+* `get_float_input` takes in two parameters: the user's input as a float and the minimum value that the input should accept. This ensures users cannot enter 0, a negative number, or a character.
+* `get_int_input` takes in two parameters: the user's input as an int and the minimum value that the input should accept. This ensures users cannot enter 0, a negative number, or a character.
+* The `main` function includes code to prompt the user to input values to calculate the potential earned interest and final balances for a savings account and a CD. The inputs call the `get_float_input` and `get_int_input` functions, passing the `prompt` input text and the `min_value` arguments.
+
+While entering 0 is technically permitted, the program makes no sense if we don't require a value greater than 0. We're calculating interest.
+
+**Note**
+I chatted with Copilot to learn how to add input validation to my inputs and added this to my code after further study.
