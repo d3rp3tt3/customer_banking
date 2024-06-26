@@ -27,7 +27,7 @@ def main():
         input("What is the balance of the savings account? "))
     savings_interest = float(input("What is the savings interest rate? "))
     savings_maturity = int(
-        input("Over how many months would you like to calculate the earned interest ? "))
+        input("Over how many months would you like to calculate the earned interest? "))
 
     # Call the create_savings_account function and pass the variables from the user.
     updated_savings_balance, interest_earned, savings_months = create_savings_account(
